@@ -1,0 +1,35 @@
+C:\Users\Khaled Saleh\source\repos\File Project GUI\File Project GUI\bin\Debug\File Project GUI.exe.config
+C:\Users\Khaled Saleh\source\repos\File Project GUI\File Project GUI\bin\Debug\File Project GUI.exe
+C:\Users\Khaled Saleh\source\repos\File Project GUI\File Project GUI\bin\Debug\File Project GUI.pdb
+C:\Users\Khaled Saleh\source\repos\File Project GUI\File Project GUI\obj\Debug\File_Project_GUI.constraintsForm.resources
+C:\Users\Khaled Saleh\source\repos\File Project GUI\File Project GUI\obj\Debug\File_Project_GUI.startForm.resources
+C:\Users\Khaled Saleh\source\repos\File Project GUI\File Project GUI\obj\Debug\File_Project_GUI.Properties.Resources.resources
+C:\Users\Khaled Saleh\source\repos\File Project GUI\File Project GUI\obj\Debug\File Project GUI.csproj.GenerateResource.cache
+C:\Users\Khaled Saleh\source\repos\File Project GUI\File Project GUI\obj\Debug\File Project GUI.csproj.CoreCompileInputs.cache
+C:\Users\Khaled Saleh\source\repos\File Project GUI\File Project GUI\obj\Debug\File Project GUI.exe
+C:\Users\Khaled Saleh\source\repos\File Project GUI\File Project GUI\obj\Debug\File Project GUI.pdb
+C:\Users\Khaled Saleh\source\repos\File Project GUI\File Project GUI\obj\Debug\File Project GUI.csprojAssemblyReference.cache
+D:\Computer Science\File Structure\File Project GUI\File Project GUI\File Project GUI\bin\Debug\File Project GUI.exe.config
+D:\Computer Science\File Structure\File Project GUI\File Project GUI\File Project GUI\bin\Debug\File Project GUI.exe
+D:\Computer Science\File Structure\File Project GUI\File Project GUI\File Project GUI\bin\Debug\File Project GUI.pdb
+D:\Computer Science\File Structure\File Project GUI\File Project GUI\File Project GUI\obj\Debug\File Project GUI.csprojAssemblyReference.cache
+D:\Computer Science\File Structure\File Project GUI\File Project GUI\File Project GUI\obj\Debug\File_Project_GUI.constraintsForm.resources
+D:\Computer Science\File Structure\File Project GUI\File Project GUI\File Project GUI\obj\Debug\File_Project_GUI.GIFForm.resources
+D:\Computer Science\File Structure\File Project GUI\File Project GUI\File Project GUI\obj\Debug\File_Project_GUI.startForm.resources
+D:\Computer Science\File Structure\File Project GUI\File Project GUI\File Project GUI\obj\Debug\File_Project_GUI.Properties.Resources.resources
+D:\Computer Science\File Structure\File Project GUI\File Project GUI\File Project GUI\obj\Debug\File Project GUI.csproj.GenerateResource.cache
+D:\Computer Science\File Structure\File Project GUI\File Project GUI\File Project GUI\obj\Debug\File Project GUI.csproj.CoreCompileInputs.cache
+D:\Computer Science\File Structure\File Project GUI\File Project GUI\File Project GUI\obj\Debug\File Project GUI.exe
+D:\Computer Science\File Structure\File Project GUI\File Project GUI\File Project GUI\obj\Debug\File Project GUI.pdb
+C:\Users\mostafabesher000\source\repos\File Project GUI\File Project GUI\bin\Debug\File Project GUI.exe.config
+C:\Users\mostafabesher000\source\repos\File Project GUI\File Project GUI\bin\Debug\File Project GUI.exe
+C:\Users\mostafabesher000\source\repos\File Project GUI\File Project GUI\bin\Debug\File Project GUI.pdb
+C:\Users\mostafabesher000\source\repos\File Project GUI\File Project GUI\obj\Debug\File Project GUI.csprojAssemblyReference.cache
+C:\Users\mostafabesher000\source\repos\File Project GUI\File Project GUI\obj\Debug\File_Project_GUI.constraintsForm.resources
+C:\Users\mostafabesher000\source\repos\File Project GUI\File Project GUI\obj\Debug\File_Project_GUI.GIFForm.resources
+C:\Users\mostafabesher000\source\repos\File Project GUI\File Project GUI\obj\Debug\File_Project_GUI.startForm.resources
+C:\Users\mostafabesher000\source\repos\File Project GUI\File Project GUI\obj\Debug\File_Project_GUI.Properties.Resources.resources
+C:\Users\mostafabesher000\source\repos\File Project GUI\File Project GUI\obj\Debug\File Project GUI.csproj.GenerateResource.cache
+C:\Users\mostafabesher000\source\repos\File Project GUI\File Project GUI\obj\Debug\File Project GUI.csproj.CoreCompileInputs.cache
+C:\Users\mostafabesher000\source\repos\File Project GUI\File Project GUI\obj\Debug\File Project GUI.exe
+C:\Users\mostafabesher000\source\repos\File Project GUI\File Project GUI\obj\Debug\File Project GUI.pdb

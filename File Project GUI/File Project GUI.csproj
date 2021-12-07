@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D71E6989-EF01-4979-B8A8-B23D97B22D9F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>File_Project_GUI</RootNamespace>
+    <AssemblyName>File Project GUI</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\..\..\..\..\Windows\assembly\GAC_MSIL\Microsoft.Office.Interop.Excel\14.0.0.0__71e9bce111e9429c\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="constraintsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="constraintsForm.Designer.cs">
+      <DependentUpon>constraintsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConstraintsFunctions.cs" />
+    <Compile Include="Excel.cs" />
+    <Compile Include="GIFForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GIFForm.Designer.cs">
+      <DependentUpon>GIFForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="startForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="startForm.Designer.cs">
+      <DependentUpon>startForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="constraintsForm.resx">
+      <DependentUpon>constraintsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GIFForm.resx">
+      <DependentUpon>GIFForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="startForm.resx">
+      <DependentUpon>startForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Screenshot_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Screenshot_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Screenshot_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\11949858491812712425information_sign_mo_01.svg.med.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\a52ce2d4014c39b7b7c5974a1a1cbb85-orange-circle-question-mark-icon-by-vexels.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\minus-zoomout-subtract-cut-delete-minimise-minimize-decrease-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\orange-power-button-md.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\7b9fa5fc9d.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\folder_browse-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Open_file.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\136526.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\text-richtext-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\1322164.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\35-355669_convert-hub-is-a-free-online-image-converter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\9aef5e299c4ad8ad6b27fa8fb41654a0_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\580b57fcd9996e24bc43c441.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\orange_arrow_png_963271.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\file_formats_4_txt-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Microsoft-Excel-2013-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\reload-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\lock-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\lock-outline-filled.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\tools-and-utensils-block-lock-icon-3486-512x512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\undo-4-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\license-check.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
